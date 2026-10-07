@@ -1,6 +1,6 @@
-# StockPilot ERP - Weeks 1-14
+# StockPilot ERP
 
-The latest message update replaces development-week headings with feature descriptions
+The latest message update replaces development headings with feature descriptions
 and adds source comments explaining responsibilities and connected modules. Read
 [Code responsibilities](docs/CODE_RESPONSIBILITIES.md) and
 [Message update verification](docs/MESSAGE_UPDATE_VERIFICATION.md) for this revision.
@@ -10,7 +10,7 @@ gateway, Spring OIDC identity, and organization-scoped plugins.
 
 ## Current revision: languages, design settings, marketplace and SDK
 
-This ZIP contains the complete Weeks 1–14 application, plus:
+This application contains :
 
 - English/French/Arabic UI selection and Arabic RTL layout.
 - Optional, organization-specific design editing with preview, cancel and explicit save.
@@ -22,8 +22,7 @@ This ZIP contains the complete Weeks 1–14 application, plus:
 Start with [Revision review and verification](docs/REVISION_REVIEW.md),
 [Languages and design](docs/LANGUAGE_AND_DESIGN.md) and
 [Marketplace and SDK](docs/MARKETPLACE_AND_SDK.md).
-The latest review report supersedes test counts and limitations in earlier weekly reports.
-The existing default visual design is retained until you preview or save new settings.
+
 
 ## Start a fresh demonstration (Docker Desktop + WSL2)
 
@@ -40,18 +39,7 @@ The demo flag creates sample data and may reset demo-account passwords. Leave it
 false when continuing an existing database. Keep the same Compose project name
 and existing volumes to retain your data; do not run `docker compose down -v`.
 
-On an existing Weeks 1-11 installation, rebuild the application with the new source:
-`docker compose up --build`. The bootstrap service runs migrations and refreshes
-the private identity snapshot. If identities change later, run
-`docker compose run --rm identity-bootstrap` and `docker compose restart identity`.
 
-## What changed
-
-| Week | Deliverable |
-|---|---|
-| 12 | Compose package, this guide, demo checklist and capture script; screenshots/video pending local capture |
-| 13 | Versioned manifests, explicit hook registry, tenant-owned installations, permissions and plugin output |
-| 14 | Install, configure, enable/disable, update, rollback, dependency checks, history and audit |
 
 ## Try the plugin lifecycle
 
