@@ -1,0 +1,23 @@
+[project]
+name = "stockpilot-ai-service"
+version = "0.8.0"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+  "fastapi>=0.115,<1", "uvicorn>=0.34,<1", "pydantic>=2.10,<3",
+  "opencv-python-headless>=4.11,<5", "pytesseract>=0.3.13,<0.4",
+  "Pillow>=11,<13", "pypdf>=5,<7", "scikit-learn>=1.6,<2",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.3,<9", "httpx>=0.28,<1", "ruff>=0.11,<0.14"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["B008"]

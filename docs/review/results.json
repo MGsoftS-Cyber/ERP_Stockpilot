@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-24",
+  "backend": {
+    "passed": 151,
+    "skipped": 4
+  },
+  "frontend": {
+    "passed": 8
+  },
+  "gateway": {
+    "passed": 7
+  },
+  "ai": {
+    "passed": 10
+  },
+  "sdk_cli": [
+    "init",
+    "validate",
+    "build"
+  ],
+  "passed_checks": [
+    "Django check",
+    "migration drift",
+    "OpenAPI --fail-on-warn",
+    "Ruff backend and AI",
+    "TypeScript production build",
+    "ESLint",
+    "source syntax/config/imports"
+  ],
+  "remaining": {
+    "strict_mypy_errors": 561,
+    "not_run": [
+      "PostgreSQL concurrency",
+      "live Django-AI integration",
+      "Java 21 Spring build",
+      "Docker full stack",
+      "real browser end-to-end"
+    ]
+  }
+}

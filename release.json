@@ -1,0 +1,17 @@
+{
+  "application": "StockPilot",
+  "release": "0.14.0",
+  "weeks": "1-14",
+  "plugin_api": 1,
+  "gateway_service": "0.11.0",
+  "identity_service": "0.11.0",
+  "plugin_format": "reviewed declarative JSON manifests",
+  "rollback_scope": "plugin release, enabled state and configuration",
+  "revision": "multilingual-design-marketplace-sdk",
+  "languages": [
+    "en",
+    "fr",
+    "ar"
+  ],
+  "sdk_version": "0.1.0"
+}

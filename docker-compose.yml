@@ -1,0 +1,130 @@
+services:
+  # One-shot upgrade: keeps existing data; demo seeding is explicitly opt-in.
+  identity-bootstrap:
+    build:
+      context: ./services/erp-core
+      target: development
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-stockpilot}:${POSTGRES_PASSWORD:-stockpilot}@db:5432/${POSTGRES_DB:-stockpilot}
+      SEED_DEMO: ${SEED_DEMO:-false}
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - identity_bootstrap:/bootstrap
+    command: >
+      sh -c "uv run python manage.py migrate &&
+             if [ \"$$SEED_DEMO\" = true ]; then uv run python manage.py seed_week8; fi &&
+             uv run python manage.py export_identity /bootstrap/accounts.json &&
+             chown 10001:10001 /bootstrap/accounts.json"
+
+  identity:
+    build: ./services/identity
+    environment:
+      OIDC_ISSUER: ${OIDC_ISSUER:-http://localhost:9000}
+      WEB_ORIGIN: ${WEB_ORIGIN:-http://localhost:5173}
+    volumes:
+      - identity_bootstrap:/bootstrap:ro
+      - identity_keys:/data
+    ports:
+      - "127.0.0.1:9000:9000"
+    depends_on:
+      identity-bootstrap:
+        condition: service_completed_successfully
+
+  gateway:
+    build: ./services/api-gateway
+    environment:
+      ERP_URL: http://backend:8000
+      OIDC_ISSUER: ${OIDC_ISSUER:-http://localhost:9000}
+      OIDC_JWKS_URL: http://identity:9000/oauth2/jwks
+      WEB_ORIGIN: ${WEB_ORIGIN:-http://localhost:5173}
+    ports:
+      - "127.0.0.1:3000:3000"
+    depends_on:
+      - backend
+      - identity
+
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-stockpilot}
+      POSTGRES_USER: ${POSTGRES_USER:-stockpilot}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-stockpilot}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "127.0.0.1:5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-stockpilot} -d ${POSTGRES_DB:-stockpilot}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: ./services/erp-core
+      target: development
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-stockpilot}:${POSTGRES_PASSWORD:-stockpilot}@db:5432/${POSTGRES_DB:-stockpilot}
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:-local-docker-development-key}
+      DJANGO_DEBUG: ${DJANGO_DEBUG:-true}
+      DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS:-localhost,127.0.0.1,backend}
+      CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS:-http://localhost:5173}
+      AI_SERVICE_URL: http://ai:8001
+      AI_SERVICE_TOKEN: ${AI_SERVICE_TOKEN:-local-demo-ai-token-change-me}
+      AUTH_MODE: oidc
+      OIDC_ISSUER: ${OIDC_ISSUER:-http://localhost:9000}
+      OIDC_JWKS_URL: http://identity:9000/oauth2/jwks
+    volumes:
+      - ./services/erp-core:/app
+      # Keep container dependencies separate from a host Python virtual environment.
+      - backend_venv:/app/.venv
+      - private_documents:/app/media
+    expose:
+      - "8000"
+    depends_on:
+      identity-bootstrap:
+        condition: service_completed_successfully
+    command: >
+      sh -c "uv run python manage.py runserver 0.0.0.0:8000"
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+      target: development
+    environment:
+      VITE_API_URL: http://localhost:3000/api/v1
+      VITE_AUTH_MODE: oidc
+      VITE_OIDC_ISSUER: ${OIDC_ISSUER:-http://localhost:9000}
+      VITE_WS_URL: ws://localhost:3000/ws
+    volumes:
+      - ./apps/web:/workspace/apps/web
+      - web_node_modules:/workspace/apps/web/node_modules
+      - workspace_node_modules:/workspace/node_modules
+    ports:
+      - "127.0.0.1:5173:5173"
+    depends_on:
+      - gateway
+
+  ai:
+    build: ./services/ai-service
+    environment:
+      AI_SERVICE_TOKEN: ${AI_SERVICE_TOKEN:-local-demo-ai-token-change-me}
+    # Only Compose services can reach AI; the browser uses Django's authenticated API.
+    expose:
+      - "8001"
+    mem_limit: 1g
+    cpus: 2
+    tmpfs:
+      - /tmp:size=256m,mode=1777
+
+volumes:
+  workspace_node_modules:
+  identity_bootstrap:
+  identity_keys:
+  postgres_data:
+  web_node_modules:
+  backend_venv:
+  private_documents:

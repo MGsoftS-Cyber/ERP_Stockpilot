@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+*.sqlite3
+
+# JavaScript
+node_modules/
+dist/
+coverage/
+
+# Environment and tools
+.env
+.idea/
+.vscode/
+.DS_Store
+
+# Generated uploads
+media/
+staticfiles/
+target/
+accounts.json
+*.jwk
+*.dump
+backups/

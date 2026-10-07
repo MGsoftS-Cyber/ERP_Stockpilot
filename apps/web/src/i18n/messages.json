@@ -1,0 +1,1356 @@
+{
+  "Draft updated.": ["Brouillon modifié. Vérifiez les lignes avant confirmation.", "عُدّلت المسودة. راجع السطور قبل التأكيد."],
+  "Draft created.": ["Brouillon créé. Confirmez la commande pour réserver le stock.", "أُنشئت المسودة. أكد الطلب لحجز المخزون."],
+  "Order confirmed and stock reserved.": ["Commande confirmée et stock réservé. Saisissez les quantités réellement expédiées.", "أُكد الطلب وحُجز المخزون. أدخل الكميات المشحونة فعليًا."],
+  "Shipment posted and stock updated.": ["Expédition enregistrée. Stock et réservations mis à jour.", "سُجلت الشحنة. حُدث المخزون والحجوزات."],
+  "Customer return posted to the original warehouse.": ["Retour client enregistré dans l’entrepôt d’origine. Vérifiez le mouvement de stock.", "سُجل مرتجع العميل في المستودع الأصلي. راجع حركة المخزون."],
+  "Unshipped remainder cancelled and reservation released.": ["Reliquat non expédié annulé et réservation libérée.", "أُلغيت الكمية غير المشحونة وحُرر حجزها."],
+  "StockPilot - business management": [
+    "StockPilot - gestion de l’entreprise",
+    "StockPilot - إدارة الأعمال"
+  ],
+  "Purchasing and goods receipts": [
+    "Achats et réceptions de marchandises",
+    "المشتريات واستلام البضاعة"
+  ],
+  "Create a purchase draft, submit it for approval, then record the quantities actually received. Receipts increase warehouse stock. Create the supplier invoice in Finance.": [
+    "Créez un brouillon d’achat, soumettez-le pour approbation, puis saisissez les quantités réellement reçues. Les réceptions augmentent le stock. Créez la facture fournisseur dans Finance.",
+    "أنشئ مسودة شراء وأرسلها للاعتماد ثم سجل الكميات المستلمة فعليًا. يزيد الاستلام مخزون المستودع. أنشئ فاتورة المورد في المالية."
+  ],
+  "Purchase draft saved. Review its lines before submitting it for approval.": [
+    "Brouillon d’achat enregistré. Vérifiez ses lignes avant de le soumettre pour approbation.",
+    "حُفظت مسودة الشراء. راجع سطورها قبل إرسالها للاعتماد."
+  ],
+  "Purchase status updated. The available actions now follow the order's new status.": [
+    "Statut d’achat mis à jour. Les actions disponibles correspondent au nouveau statut de la commande.",
+    "حُدّثت حالة الشراء. تتوافق الإجراءات المتاحة الآن مع حالة الطلب الجديدة."
+  ],
+  "Goods receipt recorded. Stock balances and movement history now include the received quantities.": [
+    "Réception enregistrée. Les soldes et l’historique des mouvements incluent maintenant les quantités reçues.",
+    "سُجّل استلام البضاعة. تشمل أرصدة المخزون وسجل الحركات الآن الكميات المستلمة."
+  ],
+  "Your request was recorded. Check the document or analysis status before taking the next action.": [
+    "Demande enregistrée. Vérifiez le statut du document ou de l’analyse avant de poursuivre.",
+    "سُجّل طلبك. تحقق من حالة المستند أو التحليل قبل اتخاذ الإجراء التالي."
+  ],
+  "Financial operation saved. Invoice balances, payment records and audit history have been refreshed.": [
+    "Opération financière enregistrée. Les soldes des factures, paiements et événements d’audit ont été actualisés.",
+    "حُفظت العملية المالية. حُدّثت أرصدة الفواتير وسجلات المدفوعات وسجل التدقيق."
+  ],
+  "Plugin change saved as a new revision. Review its configuration, output and history below.": [
+    "Modification de l’extension enregistrée comme nouvelle révision. Vérifiez sa configuration, ses résultats et son historique ci-dessous.",
+    "حُفظ تغيير الإضافة كنسخة جديدة. راجع إعداداتها ونتائجها وسجلها أدناه."
+  ],
+  "Overview": [
+    "Vue d’ensemble",
+    "نظرة عامة"
+  ],
+  "Products": [
+    "Produits",
+    "المنتجات"
+  ],
+  "Categories": [
+    "Catégories",
+    "الفئات"
+  ],
+  "Units": [
+    "Unités",
+    "الوحدات"
+  ],
+  "Taxes": [
+    "Taxes",
+    "الضرائب"
+  ],
+  "Partners": [
+    "Partenaires",
+    "الشركاء"
+  ],
+  "Warehouses": [
+    "Entrepôts",
+    "المستودعات"
+  ],
+  "Inventory": [
+    "Stock",
+    "المخزون"
+  ],
+  "Purchasing": [
+    "Achats",
+    "المشتريات"
+  ],
+  "Sales": [
+    "Ventes",
+    "المبيعات"
+  ],
+  "Finance & audit": [
+    "Finance et audit",
+    "المالية والتدقيق"
+  ],
+  "OCR & forecasts": [
+    "OCR et prévisions",
+    "استخراج النص والتوقعات"
+  ],
+  "Plugins": [
+    "Extensions",
+    "الإضافات"
+  ],
+  "Marketplace": [
+    "Catalogue d’extensions",
+    "سوق الإضافات"
+  ],
+  "Design": [
+    "Apparence",
+    "المظهر"
+  ],
+  "Organization": [
+    "Organisation",
+    "المؤسسة"
+  ],
+  "Logout": [
+    "Déconnexion",
+    "تسجيل الخروج"
+  ],
+  "Administrator": [
+    "Administrateur",
+    "المسؤول"
+  ],
+  "Manager": [
+    "Responsable",
+    "المدير"
+  ],
+  "Stock operator": [
+    "Gestionnaire de stock",
+    "مسؤول المخزون"
+  ],
+  "Purchasing agent": [
+    "Agent d’achat",
+    "موظف المشتريات"
+  ],
+  "Sales agent": [
+    "Commercial",
+    "موظف المبيعات"
+  ],
+  "Accountant": [
+    "Comptable",
+    "المحاسب"
+  ],
+  "Viewer": [
+    "Lecteur",
+    "مشاهد"
+  ],
+  "Read-only viewer": [
+    "Lecteur",
+    "مشاهد فقط"
+  ],
+  "Email": [
+    "E-mail",
+    "البريد الإلكتروني"
+  ],
+  "Password": [
+    "Mot de passe",
+    "كلمة المرور"
+  ],
+  "Sign in": [
+    "Connexion",
+    "تسجيل الدخول"
+  ],
+  "Signing in…": [
+    "Connexion…",
+    "جارٍ تسجيل الدخول…"
+  ],
+  "Continue to secure sign-in": [
+    "Connexion sécurisée",
+    "متابعة الدخول الآمن"
+  ],
+  "Multi-tenant ERP workspace": [
+    "Espace ERP multi-organisations",
+    "مساحة ERP متعددة المؤسسات"
+  ],
+  "Sign in securely with StockPilot Identity. Your existing ERP account is preserved.": [
+    "Connectez-vous avec StockPilot Identity. Votre compte ERP est conservé.",
+    "سجّل الدخول بأمان باستخدام StockPilot Identity مع الاحتفاظ بحساب ERP الحالي."
+  ],
+  "Design settings": [
+    "Paramètres d’apparence",
+    "إعدادات المظهر"
+  ],
+  "The current design stays unchanged until you preview or save.": [
+    "Le design reste inchangé jusqu’à l’aperçu ou l’enregistrement.",
+    "يبقى التصميم الحالي دون تغيير حتى المعاينة أو الحفظ."
+  ],
+  "Saved": [
+    "Enregistré",
+    "تم الحفظ"
+  ],
+  "primary": [
+    "Couleur principale",
+    "اللون الأساسي"
+  ],
+  "secondary": [
+    "Couleur secondaire",
+    "اللون الثانوي"
+  ],
+  "background": [
+    "Arrière-plan",
+    "الخلفية"
+  ],
+  "radius": [
+    "Arrondi",
+    "استدارة الزوايا"
+  ],
+  "font size": [
+    "Taille du texte",
+    "حجم الخط"
+  ],
+  "Theme": [
+    "Thème",
+    "السمة"
+  ],
+  "Light": [
+    "Clair",
+    "فاتح"
+  ],
+  "Dark": [
+    "Sombre",
+    "داكن"
+  ],
+  "Density": [
+    "Densité",
+    "الكثافة"
+  ],
+  "Standard": [
+    "Standard",
+    "عادي"
+  ],
+  "Compact": [
+    "Compact",
+    "مضغوط"
+  ],
+  "Preview": [
+    "Aperçu",
+    "معاينة"
+  ],
+  "Cancel preview": [
+    "Annuler l’aperçu",
+    "إلغاء المعاينة"
+  ],
+  "Restore defaults": [
+    "Rétablir les valeurs par défaut",
+    "استعادة القيم الافتراضية"
+  ],
+  "Save design": [
+    "Enregistrer le design",
+    "حفظ التصميم"
+  ],
+  "Plugin marketplace": [
+    "Catalogue d’extensions",
+    "سوق الإضافات"
+  ],
+  "Reviewed add-ons use approved read-only hooks. Manage configuration and rollback in Plugins.": [
+    "Les extensions validées utilisent des points d’accès en lecture seule. Configuration et restauration dans Extensions.",
+    "تستخدم الإضافات المراجعة نقاط ربط للقراءة فقط. يمكنك ضبطها واسترجاع نسخها في صفحة الإضافات."
+  ],
+  "Search": [
+    "Rechercher",
+    "بحث"
+  ],
+  "All": [
+    "Tout",
+    "الكل"
+  ],
+  "Workspace": [
+    "Espace de travail",
+    "مساحة العمل"
+  ],
+  "Reviewed community": [
+    "Communauté validée",
+    "مجتمع تمت مراجعته"
+  ],
+  "Dependencies": [
+    "Dépendances",
+    "التبعيات"
+  ],
+  "Installed version": [
+    "Version installée",
+    "الإصدار المثبت"
+  ],
+  "Developer submissions": [
+    "Soumissions des développeurs",
+    "طلبات المطورين"
+  ],
+  "Paste the JSON package produced by the SDK build command.": [
+    "Collez le paquet JSON créé par la commande build du SDK.",
+    "ألصق حزمة JSON التي أنشأها أمر build في SDK."
+  ],
+  "Package JSON": [
+    "Paquet JSON",
+    "حزمة JSON"
+  ],
+  "Submit for review": [
+    "Soumettre pour validation",
+    "إرسال للمراجعة"
+  ],
+  "Submitted for review": [
+    "Soumis pour validation",
+    "أُرسل للمراجعة"
+  ],
+  "Review note": [
+    "Note de validation",
+    "ملاحظة المراجعة"
+  ],
+  "Approve": [
+    "Approuver",
+    "اعتماد"
+  ],
+  "Reject": [
+    "Rejeter",
+    "رفض"
+  ],
+  "Pending": [
+    "En attente",
+    "قيد الانتظار"
+  ],
+  "Approved": [
+    "Approuvé",
+    "معتمد"
+  ],
+  "Rejected": [
+    "Rejeté",
+    "مرفوض"
+  ],
+  "Draft": [
+    "Brouillon",
+    "مسودة"
+  ],
+  "Submitted": [
+    "Soumis",
+    "مُرسل"
+  ],
+  "Confirmed": [
+    "Confirmé",
+    "مؤكد"
+  ],
+  "Cancelled": [
+    "Annulé",
+    "ملغى"
+  ],
+  "Closed": [
+    "Clôturé",
+    "مغلق"
+  ],
+  "Received": [
+    "Reçu",
+    "مستلم"
+  ],
+  "Partially received": [
+    "Partiellement reçu",
+    "مستلم جزئيًا"
+  ],
+  "Partially shipped": [
+    "Partiellement expédié",
+    "مشحون جزئيًا"
+  ],
+  "Shipped": [
+    "Expédié",
+    "مشحون"
+  ],
+  "Posted": [
+    "Comptabilisé",
+    "مرحّل"
+  ],
+  "Paid": [
+    "Payé",
+    "مدفوع"
+  ],
+  "Void": [
+    "Annulé",
+    "ملغى"
+  ],
+  "Active": [
+    "Actif",
+    "نشط"
+  ],
+  "Released": [
+    "Libéré",
+    "محرر"
+  ],
+  "Consumed": [
+    "Consommé",
+    "مستهلك"
+  ],
+  "Yes": [
+    "Oui",
+    "نعم"
+  ],
+  "No": [
+    "Non",
+    "لا"
+  ],
+  "Action": [
+    "Action",
+    "إجراء"
+  ],
+  "Add": [
+    "Ajouter",
+    "إضافة"
+  ],
+  "Add allocation": [
+    "Ajouter une affectation",
+    "إضافة تخصيص"
+  ],
+  "Add line": [
+    "Ajouter une ligne",
+    "إضافة سطر"
+  ],
+  "Add product": [
+    "Ajouter un produit",
+    "إضافة منتج"
+  ],
+  "Add product line": [
+    "Ajouter une ligne produit",
+    "إضافة سطر منتج"
+  ],
+  "Address": [
+    "Adresse",
+    "العنوان"
+  ],
+  "Adjustment": [
+    "Ajustement",
+    "تسوية"
+  ],
+  "Allow decimal quantities": [
+    "Autoriser les quantités décimales",
+    "السماح بالكميات العشرية"
+  ],
+  "Amount": [
+    "Montant",
+    "المبلغ"
+  ],
+  "Audit history": [
+    "Historique d’audit",
+    "سجل التدقيق"
+  ],
+  "Available": [
+    "Disponible",
+    "المتاح"
+  ],
+  "Billing, finance and audit": [
+    "Facturation, finance et audit",
+    "الفوترة والمالية والتدقيق"
+  ],
+  "Cancel": [
+    "Annuler",
+    "إلغاء"
+  ],
+  "Cancel editing": [
+    "Annuler la modification",
+    "إلغاء التعديل"
+  ],
+  "Cancel order": [
+    "Annuler la commande",
+    "إلغاء الطلب"
+  ],
+  "Cancel remaining order": [
+    "Annuler le reliquat",
+    "إلغاء الكمية المتبقية"
+  ],
+  "Cancellation reason": [
+    "Motif d’annulation",
+    "سبب الإلغاء"
+  ],
+  "Cash expenses": [
+    "Dépenses réglées",
+    "المصروفات المدفوعة"
+  ],
+  "Catalog prices and minimum-stock configuration.": [
+    "Prix du catalogue et seuils de stock.",
+    "أسعار الكتالوج وإعداد الحد الأدنى للمخزون."
+  ],
+  "Catalog version": [
+    "Version du catalogue",
+    "إصدار الكتالوج"
+  ],
+  "Category": [
+    "Catégorie",
+    "الفئة"
+  ],
+  "Close review": [
+    "Fermer la revue",
+    "إغلاق المراجعة"
+  ],
+  "Close with review note": [
+    "Clôturer avec une note",
+    "إغلاق مع ملاحظة"
+  ],
+  "Code": [
+    "Code",
+    "الرمز"
+  ],
+  "Configuration:": [
+    "Configuration :",
+    "الإعدادات:"
+  ],
+  "Confirm and reserve": [
+    "Confirmer et réserver",
+    "تأكيد وحجز"
+  ],
+  "Correct and review": [
+    "Corriger et vérifier",
+    "تصحيح ومراجعة"
+  ],
+  "Correct invoice reference": [
+    "Corriger la référence facture",
+    "تصحيح مرجع الفاتورة"
+  ],
+  "Correction / closure reason": [
+    "Motif de correction / clôture",
+    "سبب التصحيح أو الإغلاق"
+  ],
+  "Could not load sales data. Check the connection and selected organization.": [
+    "Chargement impossible. Vérifiez la connexion et l’organisation.",
+    "تعذر تحميل بيانات المبيعات. تحقق من الاتصال والمؤسسة المحددة."
+  ],
+  "Create": [
+    "Créer",
+    "إنشاء"
+  ],
+  "Create draft": [
+    "Créer un brouillon",
+    "إنشاء مسودة"
+  ],
+  "Create draft invoice": [
+    "Créer une facture brouillon",
+    "إنشاء مسودة فاتورة"
+  ],
+  "Created": [
+    "Créé",
+    "تاريخ الإنشاء"
+  ],
+  "Currency": [
+    "Devise",
+    "العملة"
+  ],
+  "Customer": [
+    "Client",
+    "العميل"
+  ],
+  "Customer and supplier": [
+    "Client et fournisseur",
+    "عميل ومورد"
+  ],
+  "Customers, suppliers, or organizations that are both.": [
+    "Clients, fournisseurs ou partenaires mixtes.",
+    "العملاء والموردون والشركاء الذين يجمعون الدورين."
+  ],
+  "Daily forecast:": [
+    "Prévision quotidienne :",
+    "التوقع اليومي:"
+  ],
+  "Date": [
+    "Date",
+    "التاريخ"
+  ],
+  "Day": [
+    "Jour",
+    "اليوم"
+  ],
+  "Decimals": [
+    "Décimales",
+    "الكسور العشرية"
+  ],
+  "Decision:": [
+    "Décision :",
+    "القرار:"
+  ],
+  "Description": [
+    "Description",
+    "الوصف"
+  ],
+  "Destination warehouse": [
+    "Entrepôt de destination",
+    "مستودع الوجهة"
+  ],
+  "Download original": [
+    "Télécharger l’original",
+    "تنزيل الأصل"
+  ],
+  "Draft invoice created:": [
+    "Facture brouillon créée :",
+    "تم إنشاء مسودة الفاتورة:"
+  ],
+  "Draft orders, reserve stock, ship quantities and record customer returns.": [
+    "Créez des commandes, réservez, expédiez et enregistrez les retours clients.",
+    "أنشئ الطلبات واحجز المخزون واشحن الكميات وسجل مرتجعات العملاء."
+  ],
+  "Due": [
+    "À payer",
+    "المستحق"
+  ],
+  "Due on": [
+    "Échéance",
+    "تاريخ الاستحقاق"
+  ],
+  "Edit draft": [
+    "Modifier le brouillon",
+    "تعديل المسودة"
+  ],
+  "Extract / retry": [
+    "Extraire / réessayer",
+    "استخراج أو إعادة المحاولة"
+  ],
+  "Extraction is running; interrupted attempts can be retried after five minutes.": [
+    "Extraction en cours ; réessayez après cinq minutes en cas d’interruption.",
+    "الاستخراج جارٍ؛ يمكن إعادة المحاولة بعد خمس دقائق عند الانقطاع."
+  ],
+  "Forecast and reorder analysis": [
+    "Prévisions et réapprovisionnement",
+    "تحليل التوقعات وإعادة الطلب"
+  ],
+  "Forecast horizon (days)": [
+    "Horizon de prévision (jours)",
+    "أفق التوقع بالأيام"
+  ],
+  "History": [
+    "Historique",
+    "السجل"
+  ],
+  "Holdout MAE:": [
+    "MAE de validation :",
+    "متوسط الخطأ المطلق للتحقق:"
+  ],
+  "Human correction · document": [
+    "Correction humaine · document",
+    "تصحيح بشري · مستند"
+  ],
+  "I reviewed the document — create draft invoice": [
+    "Document vérifié — créer le brouillon",
+    "راجعت المستند — إنشاء مسودة الفاتورة"
+  ],
+  "Immutable movements with current, reserved and available stock by warehouse.": [
+    "Mouvements immuables ; stock physique, réservé et disponible par entrepôt.",
+    "حركات غير قابلة للتعديل مع الكميات الحالية والمحجوزة والمتاحة لكل مستودع."
+  ],
+  "Install": [
+    "Installer",
+    "تثبيت"
+  ],
+  "Install reviewed extensions for this organization. Every change creates a history revision.": [
+    "Installez des extensions validées. Chaque changement crée une révision.",
+    "ثبّت إضافات تمت مراجعتها لهذه المؤسسة. يُسجل كل تغيير كنسخة في السجل."
+  ],
+  "Inventory ledger": [
+    "Registre des stocks",
+    "دفتر المخزون"
+  ],
+  "Invoice ID:": [
+    "Identifiant facture :",
+    "معرف الفاتورة:"
+  ],
+  "Invoice OCR and recommendations": [
+    "OCR de factures et recommandations",
+    "استخراج الفواتير والتوصيات"
+  ],
+  "Invoice UUID": [
+    "UUID de facture",
+    "معرف الفاتورة UUID"
+  ],
+  "Invoice reference": [
+    "Référence facture",
+    "مرجع الفاتورة"
+  ],
+  "Invoices": [
+    "Factures",
+    "الفواتير"
+  ],
+  "Issued": [
+    "Émis",
+    "الإصدار"
+  ],
+  "Issued on": [
+    "Date d’émission",
+    "تاريخ الإصدار"
+  ],
+  "Kind": [
+    "Nature",
+    "النوع"
+  ],
+  "Lead time (days)": [
+    "Délai (jours)",
+    "مدة التوريد بالأيام"
+  ],
+  "Line": [
+    "Ligne",
+    "السطر"
+  ],
+  "Lines from": [
+    "Lignes provenant de",
+    "سطور من"
+  ],
+  "Load draft for editing": [
+    "Charger le brouillon",
+    "تحميل المسودة للتعديل"
+  ],
+  "Loading orders...": [
+    "Chargement des commandes…",
+    "جارٍ تحميل الطلبات…"
+  ],
+  "Manual lines": [
+    "Lignes manuelles",
+    "سطور يدوية"
+  ],
+  "Margin alerts (below 20% or zero revenue):": [
+    "Alertes de marge (sous 20 % ou CA nul) :",
+    "تنبيهات الهامش (أقل من 20% أو إيراد صفري):"
+  ],
+  "Minimum": [
+    "Minimum",
+    "الحد الأدنى"
+  ],
+  "Model:": [
+    "Modèle :",
+    "النموذج:"
+  ],
+  "Movement": [
+    "Mouvement",
+    "الحركة"
+  ],
+  "Movement history": [
+    "Historique des mouvements",
+    "سجل الحركات"
+  ],
+  "Name": [
+    "Nom",
+    "الاسم"
+  ],
+  "Net subtotal:": [
+    "Sous-total net :",
+    "المجموع الفرعي الصافي:"
+  ],
+  "Next": [
+    "Suivant",
+    "التالي"
+  ],
+  "No active organization membership is available.": [
+    "Aucune adhésion active à une organisation.",
+    "لا توجد عضوية نشطة في أي مؤسسة."
+  ],
+  "No category": [
+    "Sans catégorie",
+    "بدون فئة"
+  ],
+  "No low-stock balances match this threshold.": [
+    "Aucun stock faible pour ce seuil.",
+    "لا يوجد مخزون منخفض يطابق هذا الحد."
+  ],
+  "No movements have been posted yet.": [
+    "Aucun mouvement enregistré.",
+    "لم تُسجل حركات بعد."
+  ],
+  "No orders yet.": [
+    "Aucune commande.",
+    "لا توجد طلبات بعد."
+  ],
+  "No records yet.": [
+    "Aucun enregistrement.",
+    "لا توجد سجلات بعد."
+  ],
+  "No sales orders yet.": [
+    "Aucune commande client.",
+    "لا توجد طلبات مبيعات بعد."
+  ],
+  "No stock has been posted yet.": [
+    "Aucun stock enregistré.",
+    "لم يُسجل مخزون بعد."
+  ],
+  "No stock is reserved.": [
+    "Aucun stock réservé.",
+    "لا يوجد مخزون محجوز."
+  ],
+  "No tax": [
+    "Sans taxe",
+    "بدون ضريبة"
+  ],
+  "Notes": [
+    "Notes",
+    "ملاحظات"
+  ],
+  "On hand": [
+    "Stock physique",
+    "المتوفر فعليًا"
+  ],
+  "Only organization administrators can manage plugins.": [
+    "Seuls les administrateurs gèrent les extensions.",
+    "يمكن لمسؤولي المؤسسة فقط إدارة الإضافات."
+  ],
+  "Open": [
+    "Ouvrir",
+    "فتح"
+  ],
+  "Ordered": [
+    "Commandé",
+    "المطلوب"
+  ],
+  "Orders": [
+    "Commandes",
+    "الطلبات"
+  ],
+  "Page": [
+    "Page",
+    "صفحة"
+  ],
+  "Paid on": [
+    "Payé le",
+    "تاريخ الدفع"
+  ],
+  "Partner": [
+    "Partenaire",
+    "الشريك"
+  ],
+  "Payment history": [
+    "Historique des paiements",
+    "سجل المدفوعات"
+  ],
+  "Payment reference": [
+    "Référence paiement",
+    "مرجع الدفع"
+  ],
+  "Phone": [
+    "Téléphone",
+    "الهاتف"
+  ],
+  "Physical locations used by inventory balances and transfers.": [
+    "Lieux physiques pour les stocks et transferts.",
+    "مواقع فعلية لأرصدة المخزون والتحويلات."
+  ],
+  "Plugin": [
+    "Extension",
+    "إضافة"
+  ],
+  "Plugin output": [
+    "Résultat de l’extension",
+    "نتيجة الإضافة"
+  ],
+  "Positive adds stock; negative removes stock.": [
+    "Positif : ajout ; négatif : retrait.",
+    "القيمة الموجبة تضيف مخزونًا والسالبة تخصم منه."
+  ],
+  "Post a shipment": [
+    "Enregistrer une expédition",
+    "تسجيل شحنة"
+  ],
+  "Post adjustment": [
+    "Valider l’ajustement",
+    "ترحيل التسوية"
+  ],
+  "Post goods receipt": [
+    "Valider la réception",
+    "ترحيل استلام البضاعة"
+  ],
+  "Post invoice": [
+    "Comptabiliser la facture",
+    "ترحيل الفاتورة"
+  ],
+  "Post return": [
+    "Valider le retour",
+    "ترحيل المرتجع"
+  ],
+  "Post stock adjustment": [
+    "Valider l’ajustement de stock",
+    "ترحيل تسوية المخزون"
+  ],
+  "Previous": [
+    "Précédent",
+    "السابق"
+  ],
+  "Product": [
+    "Produit",
+    "المنتج"
+  ],
+  "Product classification owned by the selected organization.": [
+    "Classification des produits de l’organisation.",
+    "تصنيف منتجات المؤسسة المحددة."
+  ],
+  "Purchase": [
+    "Achat",
+    "شراء"
+  ],
+  "Purchase orders": [
+    "Commandes fournisseurs",
+    "طلبات الشراء"
+  ],
+  "Quantity": [
+    "Quantité",
+    "الكمية"
+  ],
+  "Rate": [
+    "Taux",
+    "النسبة"
+  ],
+  "Rate (%)": [
+    "Taux (%)",
+    "النسبة (%)"
+  ],
+  "Reason": [
+    "Motif",
+    "السبب"
+  ],
+  "Reason (optional)": [
+    "Motif (facultatif)",
+    "السبب (اختياري)"
+  ],
+  "Reason for accepting / rejecting a result": [
+    "Motif d’acceptation / rejet",
+    "سبب قبول أو رفض النتيجة"
+  ],
+  "Reason for voiding": [
+    "Motif d’annulation",
+    "سبب الإلغاء"
+  ],
+  "Receive goods (enter only quantities received today)": [
+    "Réception (quantités reçues aujourd’hui uniquement)",
+    "استلام البضاعة (أدخل كميات اليوم فقط)"
+  ],
+  "Record and allocate payment": [
+    "Enregistrer et affecter le paiement",
+    "تسجيل وتخصيص الدفعة"
+  ],
+  "Record customer return": [
+    "Enregistrer un retour client",
+    "تسجيل مرتجع العميل"
+  ],
+  "Record expense": [
+    "Enregistrer une dépense",
+    "تسجيل مصروف"
+  ],
+  "Record payment": [
+    "Enregistrer un paiement",
+    "تسجيل دفعة"
+  ],
+  "Reference": [
+    "Référence",
+    "المرجع"
+  ],
+  "Release": [
+    "Libérer",
+    "تحرير"
+  ],
+  "Remove": [
+    "Retirer",
+    "إزالة"
+  ],
+  "Reservations": [
+    "Réservations",
+    "الحجوزات"
+  ],
+  "Reserve": [
+    "Réserver",
+    "حجز"
+  ],
+  "Reserve available stock": [
+    "Réserver le stock disponible",
+    "حجز المخزون المتاح"
+  ],
+  "Reserve stock": [
+    "Réserver du stock",
+    "حجز مخزون"
+  ],
+  "Reserved": [
+    "Réservé",
+    "المحجوز"
+  ],
+  "Restore selected revision": [
+    "Restaurer la révision choisie",
+    "استعادة النسخة المحددة"
+  ],
+  "Return": [
+    "Retour",
+    "مرتجع"
+  ],
+  "Return for correction": [
+    "Renvoyer pour correction",
+    "إعادة للتصحيح"
+  ],
+  "Return reason": [
+    "Motif du retour",
+    "سبب الإرجاع"
+  ],
+  "Revision": [
+    "Révision",
+    "النسخة"
+  ],
+  "Rollback restores plugin configuration and version. It does not reverse ERP transactions.": [
+    "La restauration rétablit la configuration et la version, sans annuler les transactions ERP.",
+    "الاسترجاع يعيد إعدادات وإصدار الإضافة دون عكس معاملات ERP."
+  ],
+  "Rollback to revision": [
+    "Restaurer la révision",
+    "استرجاع النسخة"
+  ],
+  "Run analysis": [
+    "Lancer l’analyse",
+    "تشغيل التحليل"
+  ],
+  "SKU": [
+    "SKU",
+    "رمز المنتج SKU"
+  ],
+  "Sales and fulfilment": [
+    "Ventes et livraison",
+    "المبيعات والتنفيذ"
+  ],
+  "Save configuration": [
+    "Enregistrer la configuration",
+    "حفظ الإعدادات"
+  ],
+  "Save draft": [
+    "Enregistrer le brouillon",
+    "حفظ المسودة"
+  ],
+  "Select…": [
+    "Sélectionner…",
+    "اختر…"
+  ],
+  "Selling": [
+    "Vente",
+    "البيع"
+  ],
+  "Ship entered quantities": [
+    "Expédier les quantités saisies",
+    "شحن الكميات المدخلة"
+  ],
+  "Shipment": [
+    "Expédition",
+    "الشحنة"
+  ],
+  "Shipments and returns": [
+    "Expéditions et retours",
+    "الشحنات والمرتجعات"
+  ],
+  "Shipping warehouse": [
+    "Entrepôt d’expédition",
+    "مستودع الشحن"
+  ],
+  "Signed quantity": [
+    "Quantité signée",
+    "الكمية بإشارتها"
+  ],
+  "Source order": [
+    "Commande source",
+    "الطلب المصدر"
+  ],
+  "Source warehouse": [
+    "Entrepôt source",
+    "المستودع المصدر"
+  ],
+  "Status": [
+    "Statut",
+    "الحالة"
+  ],
+  "Stock balances": [
+    "Soldes de stock",
+    "أرصدة المخزون"
+  ],
+  "Stop editing": [
+    "Terminer la modification",
+    "إنهاء التعديل"
+  ],
+  "Submit": [
+    "Soumettre",
+    "إرسال"
+  ],
+  "Supplier": [
+    "Fournisseur",
+    "المورد"
+  ],
+  "Symbol": [
+    "Symbole",
+    "الرمز"
+  ],
+  "Tax": [
+    "Taxe",
+    "الضريبة"
+  ],
+  "Tax rates expressed as percentages.": [
+    "Taux de taxe en pourcentage.",
+    "نسب الضرائب بالمئة."
+  ],
+  "The quantity must not exceed currently available stock.": [
+    "La quantité ne doit pas dépasser le stock disponible.",
+    "يجب ألا تتجاوز الكمية المخزون المتاح حاليًا."
+  ],
+  "Total": [
+    "Total",
+    "الإجمالي"
+  ],
+  "Transfer": [
+    "Transfert",
+    "تحويل"
+  ],
+  "Transfer stock": [
+    "Transférer le stock",
+    "تحويل المخزون"
+  ],
+  "Transfer stock between warehouses": [
+    "Transférer entre entrepôts",
+    "تحويل المخزون بين المستودعات"
+  ],
+  "Type": [
+    "Type",
+    "النوع"
+  ],
+  "Unit": [
+    "Unité",
+    "الوحدة"
+  ],
+  "Unit cost": [
+    "Coût unitaire",
+    "تكلفة الوحدة"
+  ],
+  "Unit price": [
+    "Prix unitaire",
+    "سعر الوحدة"
+  ],
+  "Unit selling price": [
+    "Prix de vente unitaire",
+    "سعر بيع الوحدة"
+  ],
+  "Tax rate": [
+    "Taux de taxe",
+    "نسبة الضريبة"
+  ],
+  "Units of measure used by product quantities.": [
+    "Unités de mesure des quantités.",
+    "وحدات قياس كميات المنتجات."
+  ],
+  "Update": [
+    "Mettre à jour",
+    "تحديث"
+  ],
+  "Upload document": [
+    "Importer un document",
+    "رفع مستند"
+  ],
+  "Upload invoice · PNG / JPEG / PDF · up to 10 MiB, 5 PDF pages": [
+    "Importer une facture · PNG / JPEG / PDF · 10 Mio, 5 pages maximum",
+    "رفع فاتورة · PNG / JPEG / PDF · حتى 10 ميبيبايت و5 صفحات PDF"
+  ],
+  "Use in payment": [
+    "Utiliser pour le paiement",
+    "استخدام في الدفع"
+  ],
+  "Version history": [
+    "Historique des versions",
+    "سجل الإصدارات"
+  ],
+  "Void invoice": [
+    "Annuler la facture",
+    "إلغاء الفاتورة"
+  ],
+  "Void with reason above": [
+    "Annuler avec le motif ci-dessus",
+    "إلغاء بالسبب المذكور أعلاه"
+  ],
+  "Warehouse": [
+    "Entrepôt",
+    "المستودع"
+  ],
+  "Whole order": [
+    "Commande complète",
+    "الطلب الكامل"
+  ],
+  "A secure, transactional base for the complete StockPilot ERP.": [
+    "Une base sécurisée et transactionnelle pour StockPilot ERP.",
+    "أساس آمن يعتمد المعاملات لنظام StockPilot ERP المتكامل."
+  ],
+  "% tax": [
+    "% de taxe",
+    "% ضريبة"
+  ],
+  "(fulfilled": [
+    "(livré",
+    "(منفذ"
+  ],
+  ", received": [
+    ", reçu",
+    "، مستلم"
+  ],
+  ", returned": [
+    ", retourné",
+    "، مرتجع"
+  ],
+  ", unit price": [
+    ", prix unitaire",
+    "، سعر الوحدة"
+  ],
+  ". Review and post it in Finance.": [
+    ". Vérifiez puis comptabilisez dans Finance.",
+    ". راجعها ورحّلها في المالية."
+  ],
+  "/ Subtotal": [
+    "/ Sous-total",
+    "/ المجموع الفرعي"
+  ],
+  ": ordered": [
+    ": commandé",
+    ": مطلوب"
+  ],
+  ": shipped": [
+    ": expédié",
+    ": مشحون"
+  ],
+  "All-time summary (": [
+    "Synthèse globale (",
+    "ملخص شامل ("
+  ],
+  "An unchanged retry reuses its command key. If a request timed out, retry without changing fields first.": [
+    "Une nouvelle tentative identique réutilise sa clé. En cas de délai dépassé, réessayez d’abord sans modifier les champs.",
+    "تستخدم إعادة المحاولة المطابقة مفتاح الأمر نفسه. عند انتهاء المهلة، أعد المحاولة أولًا دون تعديل الحقول."
+  ],
+  "Creates one full-order invoice; only approved purchases or confirmed sales are eligible.": [
+    "Crée une facture pour la commande entière : achat approuvé ou vente confirmée uniquement.",
+    "ينشئ فاتورة للطلب كاملًا؛ للشراء المعتمد أو البيع المؤكد فقط."
+  ],
+  "Each row must use a posted invoice from the same partner and currency. This records a payment already made; it does not transfer money.": [
+    "Chaque ligne concerne une facture comptabilisée du même partenaire et de la même devise. Enregistre un paiement effectué, sans transfert d’argent.",
+    "يجب أن يرتبط كل سطر بفاتورة مرحّلة للشريك والعملة نفسيهما. هذا يسجل دفعة تمت مسبقًا ولا يحوّل أموالًا."
+  ],
+  "Enter the actual invoice lines, tax rates and dates. The detected total is a comparison aid, not an automatically trusted line.": [
+    "Saisissez les lignes, taxes et dates réelles. Le total détecté sert à comparer et n’est pas validé automatiquement.",
+    "أدخل سطور الفاتورة والضرائب والتواريخ الفعلية. الإجمالي المستخرج للمقارنة وليس سطرًا موثوقًا تلقائيًا."
+  ],
+  "OCR proposes text and fields. Review every amount against the original document. Approval creates a supplier invoice draft; it does not post an invoice or change stock.": [
+    "L’OCR propose des champs. Vérifiez chaque montant avec l’original. L’approbation crée un brouillon fournisseur sans comptabiliser ni modifier le stock.",
+    "يقترح OCR النص والحقول. راجع كل مبلغ مع الأصل. الاعتماد ينشئ مسودة فاتورة مورد دون ترحيل الفاتورة أو تغيير المخزون."
+  ],
+  "Operational finance: totals use posted invoices and captured costs. Returns do not automatically create credit notes. Currencies are never combined.": [
+    "Les totaux utilisent les factures comptabilisées et coûts saisis. Les retours ne créent pas automatiquement d’avoirs. Les devises restent séparées.",
+    "تعتمد المجاميع على الفواتير المرحّلة والتكاليف المسجلة. لا تنشئ المرتجعات إشعارات دائنة تلقائيًا، ولا تُجمع العملات المختلفة."
+  ],
+  "Uses the previous 90 complete days of shipments. Reorder suggestions use lead time, minimum stock and available stock (on hand minus reserved). Acceptance records your decision; it does not place an order.": [
+    "Utilise 90 jours complets d’expéditions. Les suggestions prennent en compte délai, stock minimum et disponible. L’acceptation enregistre une décision sans passer commande.",
+    "يستخدم آخر 90 يومًا كاملة من الشحنات. تعتمد الاقتراحات على مدة التوريد والحد الأدنى والمخزون المتاح. القبول يسجل قرارك دون إنشاء طلب."
+  ],
+  "available": [
+    "disponible",
+    "متاح"
+  ],
+  "units · rule spike:": [
+    "unités · pic détecté :",
+    "وحدات · ارتفاع وفق القاعدة:"
+  ],
+  "· Horizon total:": [
+    "· Total sur l’horizon :",
+    "· إجمالي الأفق:"
+  ],
+  "· IsolationForest anomaly:": [
+    "· Anomalie IsolationForest :",
+    "· شذوذ IsolationForest:"
+  ],
+  "· OCR confidence": [
+    "· Confiance OCR",
+    "· ثقة OCR"
+  ],
+  "· Paid": [
+    "· Payé",
+    "· مدفوع"
+  ],
+  "· Remaining": [
+    "· Restant",
+    "· المتبقي"
+  ],
+  "· Suggested reorder:": [
+    "· Réapprovisionnement suggéré :",
+    "· إعادة الطلب المقترحة:"
+  ],
+  "· WAPE:": [
+    "· WAPE :",
+    "· WAPE:"
+  ],
+  "Tenancy": [
+    "Organisations et accès",
+    "المؤسسات والوصول"
+  ],
+  "Catalog": [
+    "Catalogue",
+    "الكتالوج"
+  ],
+  "Finance": [
+    "Finance",
+    "المالية"
+  ],
+  "Invoice OCR": [
+    "OCR de factures",
+    "استخراج الفواتير"
+  ],
+  "Recommendations": [
+    "Recommandations",
+    "التوصيات"
+  ],
+  "Organizations, memberships, roles and tenant-isolated requests.": [
+    "Organisations, adhésions, rôles et requêtes isolées.",
+    "المؤسسات والعضويات والأدوار والطلبات المعزولة لكل مؤسسة."
+  ],
+  "Products, categories, units and tax rates.": [
+    "Produits, catégories, unités et taxes.",
+    "المنتجات والفئات والوحدات ونسب الضرائب."
+  ],
+  "Customers, suppliers and dual-purpose business partners.": [
+    "Clients, fournisseurs et partenaires mixtes.",
+    "العملاء والموردون والشركاء ذوو الدورين."
+  ],
+  "Immutable ledger, balances, adjustments, transfers and reservations.": [
+    "Registre immuable, soldes, ajustements, transferts et réservations.",
+    "دفتر غير قابل للتعديل وأرصدة وتسويات وتحويلات وحجوزات."
+  ],
+  "Draft orders, approval, partial receipts and purchasing history.": [
+    "Commandes brouillon, approbations, réceptions partielles et historique.",
+    "مسودات الطلبات والاعتماد والاستلام الجزئي وسجل المشتريات."
+  ],
+  "Reservations, partial shipments, cancellation and customer returns.": [
+    "Réservations, expéditions partielles, annulations et retours.",
+    "الحجوزات والشحن الجزئي والإلغاء ومرتجعات العملاء."
+  ],
+  "Invoices, payments, expenses, currency-separated summaries and audit history.": [
+    "Factures, paiements, dépenses, synthèses par devise et audit.",
+    "الفواتير والمدفوعات والمصروفات والملخصات لكل عملة وسجل التدقيق."
+  ],
+  "Private uploads, field confidence and human-corrected supplier drafts.": [
+    "Documents privés, scores de confiance et brouillons corrigés.",
+    "مستندات خاصة ودرجات ثقة ومسودات موردين يصححها المستخدم."
+  ],
+  "Moving-average forecasts, reorder suggestions and recorded human decisions.": [
+    "Prévisions par moyenne mobile, réapprovisionnement et décisions humaines.",
+    "توقعات المتوسط المتحرك واقتراحات إعادة الطلب والقرارات البشرية المسجلة."
+  ],
+  "Enable": [
+    "Activer",
+    "تفعيل"
+  ],
+  "Disable": [
+    "Désactiver",
+    "تعطيل"
+  ],
+  "Enabled": [
+    "Activé",
+    "مفعّل"
+  ],
+  "Disabled": [
+    "Désactivé",
+    "معطّل"
+  ],
+  "Accept": [
+    "Accepter",
+    "قبول"
+  ],
+  "SKU is required.": [
+    "Le SKU est obligatoire.",
+    "رمز المنتج مطلوب."
+  ],
+  "Name is required.": [
+    "Le nom est obligatoire.",
+    "الاسم مطلوب."
+  ],
+  "Unit is required.": [
+    "L’unité est obligatoire.",
+    "الوحدة مطلوبة."
+  ]
+}

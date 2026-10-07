@@ -1,0 +1,16 @@
+{
+  "manifest": {
+    "id": "example-alert",
+    "name": "Example Alert",
+    "version": "1.0.0",
+    "api": 1,
+    "core_min": "0.14.0",
+    "core_max": "0.15.0",
+    "hook": "inventory.low_stock",
+    "requires": {},
+    "settings": {
+      "threshold": 5
+    }
+  },
+  "summary": "Example reviewed low-stock alert"
+}

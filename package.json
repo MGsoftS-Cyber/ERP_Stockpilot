@@ -1,0 +1,12 @@
+{
+  "name": "stockpilot",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "dev:web": "pnpm --filter @stockpilot/web dev",
+    "build:web": "pnpm --filter @stockpilot/web build",
+    "lint:web": "pnpm --filter @stockpilot/web lint",
+    "test:web": "pnpm --filter @stockpilot/web test"
+  }
+}
+

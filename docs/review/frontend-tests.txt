@@ -1,0 +1,15 @@
+$ vitest run
+
+ RUN  v3.2.7 /workspace/scratch/c9b49c4da743/revision_work/stockpilot/apps/web
+
+ ✓ src/api/pagination.test.ts (1 test) 3ms
+ ✓ src/api/errors.test.ts (3 tests) 2ms
+ ✓ src/i18n/i18n.test.ts (2 tests) 16ms
+ ✓ src/design/design.test.tsx (2 tests) 495ms
+   ✓ changes language and document direction without altering domain data  328ms
+
+ Test Files  4 passed (4)
+      Tests  8 passed (8)
+   Start at  03:12:15
+   Duration  2.07s (transform 337ms, setup 0ms, collect 1.14s, tests 515ms, environment 578ms, prepare 285ms)
+
