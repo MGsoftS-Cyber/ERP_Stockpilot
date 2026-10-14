@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-11",
+  "revision": "correctness-performance-documentation",
+  "backend": {
+    "passed": 164,
+    "skipped": 7,
+    "postgresql_skips": 6,
+    "live_ai_skip_executed_separately": true,
+    "seed_compatibility_passed_separately": 1
+  },
+  "live_ai": {
+    "passed": 1
+  },
+  "frontend": {
+    "passed": 8
+  },
+  "gateway": {
+    "passed": 9
+  },
+  "ai": {
+    "passed": 11
+  },
+  "identity": {
+    "build": "passed",
+    "unit_tests_passed": 3,
+    "live_protocol_integration": "passed",
+    "schema_upgrade": "passed"
+  },
+  "sdk_cli": [
+    "init",
+    "validate",
+    "build",
+    "refuse overwrite"
+  ],
+  "passed_checks": [
+    "Django check",
+    "migration drift",
+    "OpenAPI --fail-on-warn",
+    "Ruff backend and AI",
+    "TypeScript production build",
+    "ESLint",
+    "source syntax/config/imports"
+  ],
+  "remaining": {
+    "strict_mypy_errors": 564,
+    "not_run": [
+      "PostgreSQL concurrency",
+      "PostgreSQL backup/restore",
+      "Docker full stack",
+      "real browser end-to-end"
+    ]
+  }
+}

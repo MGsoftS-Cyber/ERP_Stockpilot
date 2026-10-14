@@ -1,0 +1,3 @@
+PASS: Spring discovery, CSRF, PKCE, code replay rejection, UUID migration,
+gateway writes, JWT checks, tenant denial, notifications and legacy login closure.
+PASS: Identity schema upgrade preserved all existing ERP rows.

@@ -1,0 +1,10 @@
+s....................................................................... [ 42%]
+........................................................................ [ 84%]
+....................ssssss.                                              [100%]
+=========================== short test summary info ============================
+SKIPPED [1] tests/test_ai_live.py:17: Requires the live FastAPI service
+SKIPPED [1] tests/test_finance_ai.py:487: PostgreSQL row locks required
+SKIPPED [3] tests/test_inventory_safety.py:150: PostgreSQL row locks required
+SKIPPED [1] tests/test_purchasing.py:204: Requires PostgreSQL row locks; run with DATABASE_URL set.
+SKIPPED [1] tests/test_sales.py:303: Requires PostgreSQL row locks.
+164 passed, 7 skipped, 2 warnings in 29.72s

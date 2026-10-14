@@ -1,0 +1,6 @@
+{
+  "id": "warehouse-notice", "name": "Warehouse reminder", "version": "1.0.0", "api": 1,
+  "core_min": "0.14.0", "core_max": "0.15.0", "hook": "dashboard.notice",
+  "requires": {"stock-alerts": "1.0.0"},
+  "settings": {"message": "Review the stock alerts before preparing replenishment orders."}
+}

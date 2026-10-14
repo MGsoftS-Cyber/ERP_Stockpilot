@@ -1,0 +1,7 @@
+/tmp/tmpe65qg756/manifest.json
+
+Valid · SHA-256 10e1e179e798fb33ce2dd7ac6531a842a226893a7170fd58d41f3c1bed6683b7
+
+/tmp/tmpe65qg756/plugin.json
+
+PASS: init, validate, build and refusal to overwrite an existing manifest.

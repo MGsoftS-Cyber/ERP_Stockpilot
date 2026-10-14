@@ -1,0 +1,11 @@
+**/node_modules
+**/.venv
+**/__pycache__
+**/target
+**/dist
+**/media
+**/*.sqlite3*
+**/*.jwk
+**/accounts.json
+**/.env
+.git

@@ -1,0 +1,22 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> @stockpilot/gateway@0.11.0 test
+> node --test
+
+✔ route, identity, tenant and header boundaries (59.557356ms)
+✔ rate limiting does not trust caller forwarded address (19.912585ms)
+✔ upstream failure uses envelope and writes are not retried (10.519619ms)
+✔ JWT checks use fixed issuer, audience, signature, expiry and access purpose (70.409448ms)
+✔ timeouts terminate stalled upstream responses (38.575113ms)
+✔ declared oversized uploads are rejected before proxying (3.802406ms)
+✔ WebSocket authorization and tenant-scoped invalidation (11.601392ms)
+✔ polling is shared per subject/tenant but isolated between users (133.501762ms)
+✔ shared notification clients are closed after membership revocation (53.057461ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 632.872699
